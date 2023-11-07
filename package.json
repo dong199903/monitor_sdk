@@ -1,0 +1,22 @@
+{
+  "name": "dzp-tracker",
+  "version": "1.0.3",
+  "description": "maidian",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser":"dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c"
+  },
+  "files":["dist"],
+  "keywords": ["埋点"],
+  "author": "dongzeping",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.76.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.2"
+  }
+}
